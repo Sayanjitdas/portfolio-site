@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is a simple porfolio landing page ",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx tailwindcss -i ./input.css -o ./style.css --watch"
+  },
+  "author": "sayanjit das",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.6"
+  }
+}
